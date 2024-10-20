@@ -178,7 +178,7 @@ export const aulasJavascript = [
   },
   {
     id: 6,
-    nome: "estrutuda de repetição",
+    nome: "estrutura de repetição",
     nivel2: [
       {
         idPai: 6,
