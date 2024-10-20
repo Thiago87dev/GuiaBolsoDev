@@ -37,7 +37,10 @@ const Nivel2 = ({ params }: Nivel2Props) => {
   const paramsNum = Number(dividindoParams[1]) + 1;
   return (
     <div>
-      <div className="my-[90px] mx-8">
+      <div className="my-4 mx-8 text-4xl text-[#00a6ed] font-bold">
+        <h1>{dividindoParams[0]}</h1>
+      </div>
+      <div className="my-[36px] mx-8">
         {aulas.map((item) => {
           return (
             <div key={item.id}>
@@ -53,20 +56,21 @@ const Nivel2 = ({ params }: Nivel2Props) => {
                             }`}
                           >
                             <div className="flex justify-between mb-1">
-                                  <div className="flex gap-4 ">
-                                    <p>{item2.id}</p>
-                                    <p>{item2.nome2}</p>
-                                  </div>
-                                  <p>➡️</p>
-                                </div>
-                                <hr />
+                              <div className="flex gap-4 ">
+                                <p>{item2.id}</p>
+                                <p>{item2.nome2}</p>
+                              </div>
+                              <p>➡️</p>
+                            </div>
+                            <hr />
                           </Link>
                         </li>
                       ) : (
                         <li>
                           {item2.conteudoModal.titulo &&
                             item2.conteudoModal.texto && (
-                              <button className="w-full"
+                              <button
+                                className="w-full"
                                 onClick={() =>
                                   openModal(
                                     item2.conteudoModal.titulo,
@@ -95,8 +99,10 @@ const Nivel2 = ({ params }: Nivel2Props) => {
           );
         })}
       </div>
-      <div className="mt-20">
-        <Link href={`/`}>Voltar</Link>
+      <div className="mt-20 mx-8">
+        <div className="flex justify-center items-center h-10 font-semibold rounded-2xl  w-20 border-solid border-2 border-white">
+          <Link href={`/`}>Voltar</Link>
+        </div>
       </div>
       {isModalOpen && modalInfo.image && (
         <Modal
