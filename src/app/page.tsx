@@ -26,7 +26,7 @@ export default function Home() {
   }
 
   return (
-    <div>
+    <div className="font-semibold my-5 mx-8">
       <select
         className="bg-black p-2 text-center"
         name="linguagem"

@@ -15,9 +15,17 @@ const Nivel2 = ({ params }: Nivel2Props) => {
   const aulas = dividindoParams[0] === "Python" ? aulasPython : aulasJavascript;
 
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modalInfo, setModalInfo] = useState({ title: "", content: "", image: null as StaticImageData | null});
+  const [modalInfo, setModalInfo] = useState({
+    title: "",
+    content: "",
+    image: null as StaticImageData | null,
+  });
 
-  const openModal = (title: string, content: string, image: StaticImageData) => {
+  const openModal = (
+    title: string,
+    content: string,
+    image: StaticImageData
+  ) => {
     setModalInfo({ title, content, image });
     setIsModalOpen(true);
   };
@@ -29,12 +37,12 @@ const Nivel2 = ({ params }: Nivel2Props) => {
   const paramsNum = Number(dividindoParams[1]) + 1;
   return (
     <div>
-      <div>
+      <div className="my-[90px] mx-8">
         {aulas.map((item) => {
           return (
             <div key={item.id}>
               {item.nivel2.map((item2) => (
-                <div key={item2.id}>
+                <div className="my-8 font-semibold" key={item2.id}>
                   {item2.idPai === paramsNum && (
                     <ul>
                       {item2.nivel3.length > 0 ? (
@@ -44,14 +52,21 @@ const Nivel2 = ({ params }: Nivel2Props) => {
                               item2.id
                             }`}
                           >
-                            {item2.nome2}
+                            <div className="flex justify-between mb-1">
+                                  <div className="flex gap-4 ">
+                                    <p>{item2.id}</p>
+                                    <p>{item2.nome2}</p>
+                                  </div>
+                                  <p>➡️</p>
+                                </div>
+                                <hr />
                           </Link>
                         </li>
                       ) : (
                         <li>
                           {item2.conteudoModal.titulo &&
                             item2.conteudoModal.texto && (
-                              <button
+                              <button className="w-full"
                                 onClick={() =>
                                   openModal(
                                     item2.conteudoModal.titulo,
@@ -60,7 +75,14 @@ const Nivel2 = ({ params }: Nivel2Props) => {
                                   )
                                 }
                               >
-                                {item2.nome2}
+                                <div className="flex justify-between mb-1">
+                                  <div className="flex gap-4 ">
+                                    <p>{item2.id}</p>
+                                    <p>{item2.nome2}</p>
+                                  </div>
+                                  <p>➡️</p>
+                                </div>
+                                <hr />
                               </button>
                             )}
                         </li>

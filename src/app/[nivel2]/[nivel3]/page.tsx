@@ -27,19 +27,19 @@ const Nivel3 = ({ params }: Nivel3Props) => {
   };
   return (
     <div>
-      <div>
+      <div className="my-[90px] mx-8">
         {aulas.map((item) => {
           return (
             <div key={item.id}>
               {item.nivel2.map((item2) => (
-                <div key={item2.id}>
+                <div  key={item2.id}>
                   {item2.nivel3.map((item3) => (
-                    <div key={item3.id}>
+                    <div className="my-8 font-semibold" key={item3.id}>
                       <ul>
                         <li>
                         {item3.conteudoModal.titulo &&
                             item3.conteudoModal.texto && (
-                              <button
+                              <button className="w-full"
                                 onClick={() =>
                                   openModal(
                                     item3.conteudoModal.titulo,
@@ -48,7 +48,14 @@ const Nivel3 = ({ params }: Nivel3Props) => {
                                   )
                                 }
                               >
-                                {item3.nome3}
+                                <div className="flex justify-between mb-1">
+                                  <div className="flex gap-4 ">
+                                    <p>{item3.id}</p>
+                                    <p>{item3.nome3}</p>
+                                  </div>
+                                  <p>➡️</p>
+                                </div>
+                                <hr />
                               </button>
                             )}
                         </li>
