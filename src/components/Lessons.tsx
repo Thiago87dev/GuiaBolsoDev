@@ -9,7 +9,7 @@ interface Linguagem {
 const Lessons = ({ linguagem }: Linguagem) => {
   const aulas = linguagem === "Python" ? aulasPython : aulasJavascript;
   return (
-    <div>
+    <div className="md:flex md:flex-col">
       {aulas.map((item) => {
         return (
           <div className="my-8 font-semibold" key={item.id}>

@@ -26,7 +26,7 @@ export default function Home() {
   }
 
   return (
-    <div className="font-semibold my-5 mx-8">
+    <div className="font-semibold my-5 mx-8 md:flex md:flex-col md:items-center">
       <select
         className="bg-black p-2 text-center"
         name="linguagem"
@@ -49,22 +49,22 @@ export default function Home() {
       </select> 
       
       {linguagemProgramacao === "Python" && (
-        <div>
+        <div className="md:w-2/4">
           <Lessons linguagem={linguagemProgramacao}/>
         </div>
       )}
       {linguagemProgramacao === "Javascript" && (
-        <div>
+        <div className="md:w-2/4">
           <Lessons linguagem={linguagemProgramacao}/>
         </div>
       )}
       {linguagemProgramacao === "Typescript" && (
-        <div>
+        <div className="md:w-2/4">
           <p>vc escolheu Typescript</p>
         </div>
       )}
       {linguagemProgramacao === "PHP" && (
-        <div>
+        <div className="md:w-2/4">
           <p>vc escolheu PHP</p>
         </div>
       )}
