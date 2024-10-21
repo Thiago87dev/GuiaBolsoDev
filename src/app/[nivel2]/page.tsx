@@ -98,7 +98,7 @@ const Nivel2 = ({ params }: Nivel2Props) => {
         })}
       </div>
       <div className="mt-20 mx-8">
-        <div className="flex justify-center items-center h-10 font-semibold rounded-2xl  w-20 border-solid border-2 border-white">
+        <div className="flex justify-center items-center h-10 font-semibold rounded-2xl  w-20 border-solid border-2 border-white my-4">
           <Link href={`/`}>Voltar</Link>
         </div>
       </div>
