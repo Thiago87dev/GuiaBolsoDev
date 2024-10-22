@@ -507,4 +507,402 @@ export const aulasJavascript = [
       },
     ],
   },
+  {
+    id: 9,
+    nome: "Objetos",
+    nivel2: [
+      {
+        idPai: 9,
+        id: 1,
+        nome2: "Criação e manipulação de objetos",
+        nomeReferencia: "criacaomanipulacaoobjegos",
+        nivel3: [],
+        conteudoModal: {
+          titulo: "Criação e manipulação de objetos",
+          texto: "o texto vem aqui",
+          img: no_photo,
+        },
+      },
+      {
+        idPai: 9,
+        id: 2,
+        nome2: "Acessar propriedades",
+        nomeReferencia: "acessarprops",
+        nivel3: [],
+        conteudoModal: {
+          titulo: "Acessar propriedades",
+          texto: "o texto vem aqui",
+          img: no_photo,
+        },
+      },
+      {
+        idPai: 9,
+        id: 3,
+        nome2: "Métodos úteis",
+        nomeReferencia: "metodosuteis",
+        nivel3: [
+          {
+            nomeReferencia: "metodosuteis",
+            id: 1,
+            nome3: "Object.keys( )",
+            conteudoModal: {
+              titulo: "Object.keys( )",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+          {
+            nomeReferencia: "metodosuteis",
+            id: 2,
+            nome3: "Object.values( )",
+            conteudoModal: {
+              titulo: "Object.values( )",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+        ],
+        conteudoModal: {
+          titulo: "",
+          texto: "",
+          img: no_photo,
+        },
+      },
+    ],
+  },
+  {
+    id: 10,
+    nome: "Manipulação do DOM",
+    nivel2: [
+      {
+        idPai: 10,
+        id: 1,
+        nome2: "Selecionar elementos",
+        nomeReferencia: "selecionarelementos",
+        nivel3: [
+          {
+            nomeReferencia: "selecionarelementos",
+            id: 1,
+            nome3: "getElementById( )",
+            conteudoModal: {
+              titulo: "getElementById( )",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+          {
+            nomeReferencia: "selecionarelementos",
+            id: 2,
+            nome3: "querySelector( )",
+            conteudoModal: {
+              titulo: "querySelector( )",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+        ],
+        conteudoModal: {
+          titulo: "",
+          texto: "",
+          img: no_photo,
+        },
+      },
+      {
+        idPai: 10,
+        id: 2,
+        nome2: "Modificar conteúdo",
+        nomeReferencia: "modificarelementos",
+        nivel3: [
+          {
+            nomeReferencia: "modificarelementos",
+            id: 1,
+            nome3: "innerText",
+            conteudoModal: {
+              titulo: "innerText",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+          {
+            nomeReferencia: "modificarelementos",
+            id: 2,
+            nome3: "innerHTML",
+            conteudoModal: {
+              titulo: "innerHTML",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+        ],
+        conteudoModal: {
+          titulo: "",
+          texto: "",
+          img: no_photo,
+        },
+      },
+      {
+        idPai: 10,
+        id: 3,
+        nome2: "Manipular classes",
+        nomeReferencia: "manipularclasses",
+        nivel3: [
+          {
+            nomeReferencia: "manipularclasses",
+            id: 1,
+            nome3: "classList.add( )",
+            conteudoModal: {
+              titulo: "classList.add( )",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+          {
+            nomeReferencia: "manipularclasses",
+            id: 2,
+            nome3: "classList.remove( )",
+            conteudoModal: {
+              titulo: "classList.remove()( )",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+        ],
+        conteudoModal: {
+          titulo: "",
+          texto: "",
+          img: no_photo,
+        },
+      },
+    ],
+  },
+  {
+    id: 11,
+    nome: "Eventos",
+    nivel2: [
+      {
+        idPai: 11,
+        id: 1,
+        nome2: "addEventListener( )",
+        nomeReferencia: "addeventlistener",
+        nivel3: [],
+        conteudoModal: {
+          titulo: "addEventListener( )",
+          texto: "o texto vem aqui",
+          img: no_photo,
+        },
+      },
+      {
+        idPai: 11,
+        id: 2,
+        nome2: "Eventos mais comuns",
+        nomeReferencia: "eventoscomuns",
+        nivel3: [
+          {
+            nomeReferencia: "eventoscomuns",
+            id: 1,
+            nome3: "click",
+            conteudoModal: {
+              titulo: "click",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+          {
+            nomeReferencia: "eventoscomuns",
+            id: 2,
+            nome3: "input",
+            conteudoModal: {
+              titulo: "input",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+          {
+            nomeReferencia: "eventoscomuns",
+            id: 3,
+            nome3: "submit",
+            conteudoModal: {
+              titulo: "submit",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+          {
+            nomeReferencia: "eventoscomuns",
+            id: 4,
+            nome3: "keydown",
+            conteudoModal: {
+              titulo: "keydown",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+        ],
+        conteudoModal: {
+          titulo: "",
+          texto: "",
+          img: no_photo,
+        },
+      },
+    ],
+  },
+  {
+    id: 12,
+    nome: "Promises e Async/Await",
+    nivel2: [
+      {
+        idPai: 12,
+        id: 1,
+        nome2: "Criação e uso de promises",
+        nomeReferencia: "criacaousopromises",
+        nivel3: [],
+        conteudoModal: {
+          titulo: "Criação e uso de promises",
+          texto: "o texto vem aqui",
+          img: no_photo,
+        },
+      },
+      {
+        idPai: 12,
+        id: 2,
+        nome2: "async e await para tratar código assíncrono",
+        nomeReferencia: "asyncawait",
+        nivel3: [],
+        conteudoModal: {
+          titulo: "async e await para tratar código assíncrono",
+          texto: "o texto vem aqui",
+          img: no_photo,
+        },
+      },
+    ],
+  },
+  {
+    id: 13,
+    nome: "Manipulação de Strings",
+    nivel2: [
+      {
+        idPai: 13,
+        id: 1,
+        nome2: "Métodos uteis",
+        nomeReferencia: "metodosuteis",
+        nivel3: [
+          {
+            nomeReferencia: "metodosuteis",
+            id: 1,
+            nome3: "length",
+            conteudoModal: {
+              titulo: "length",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+          {
+            nomeReferencia: "metodosuteis",
+            id: 2,
+            nome3: "toUpperCase( )",
+            conteudoModal: {
+              titulo: "toUpperCase( )",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+          {
+            nomeReferencia: "metodosuteis",
+            id: 3,
+            nome3: "toLowerCase( )",
+            conteudoModal: {
+              titulo: "toLowerCase( )",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+          {
+            nomeReferencia: "metodosuteis",
+            id: 4,
+            nome3: "split( )",
+            conteudoModal: {
+              titulo: "split( )",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+          {
+            nomeReferencia: "metodosuteis",
+            id: 5,
+            nome3: "replace( )",
+            conteudoModal: {
+              titulo: "replace( )",
+              texto: "o texto vem aqui",
+              img: no_photo,
+            },
+          },
+        ],
+        conteudoModal: {
+          titulo: "",
+          texto: "",
+          img: no_photo,
+        },
+      },
+    ],
+  },
+  {
+    id: 14,
+    nome: "Exceções",
+    nivel2: [
+      {
+        idPai: 14,
+        id: 1,
+        nome2: "try, catch",
+        nomeReferencia: "trycatch",
+        nivel3: [],
+        conteudoModal: {
+          titulo: "try, catch",
+          texto: "o texto vem aqui",
+          img: no_photo,
+        },
+      },
+      {
+        idPai: 14,
+        id: 2,
+        nome2: "finally",
+        nomeReferencia: "finally",
+        nivel3: [],
+        conteudoModal: {
+          titulo: "finally",
+          texto: "o texto vem aqui",
+          img: no_photo,
+        },
+      },
+    ],
+  },
+  {
+    id: 15,
+    nome: "JSON",
+    nivel2: [
+      {
+        idPai: 15,
+        id: 1,
+        nome2: "Conversão de objeto para JSON",
+        nomeReferencia: "jsonstringify",
+        nivel3: [],
+        conteudoModal: {
+          titulo: "JSON.stringify( )",
+          texto: "o texto vem aqui",
+          img: no_photo,
+        },
+      },
+      {
+        idPai: 15,
+        id: 2,
+        nome2: " Conversão de JSON para objeto",
+        nomeReferencia: "jsonparse",
+        nivel3: [],
+        conteudoModal: {
+          titulo: "JSON.parse( )",
+          texto: "o texto vem aqui",
+          img: no_photo,
+        },
+      },
+    ],
+  },
 ];

@@ -77,8 +77,8 @@ const Nivel2 = ({ params }: Nivel2Props) => {
                                   )
                                 }
                               >
-                                <div className="flex justify-between mb-1">
-                                  <div className="flex gap-4 ">
+                                <div className="flex justify-between items-center mb-1 text-left">
+                                  <div className="flex gap-4 items-center">
                                     <p>{item2.id}</p>
                                     <p>{item2.nome2}</p>
                                   </div>

@@ -65,8 +65,8 @@ const Nivel3 = ({ params }: Nivel3Props) => {
                                     )
                                   }
                                 >
-                                  <div className="flex justify-between mb-1">
-                                    <div className="flex gap-4 ">
+                                  <div className="flex justify-between mb-1 items-center text-left">
+                                    <div className="flex gap-4 items-center">
                                       <p>{item3.id}</p>
                                       <p>{item3.nome3}</p>
                                     </div>
