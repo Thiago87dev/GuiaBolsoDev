@@ -1,6 +1,16 @@
-import python_comentario_linha from "@/assets/img/python_comentario_linha.png";
-import python_comentario_mult_linha from "@/assets/img/python_comentario_mult.png";
 import no_photo from "@/assets/img/no_photo.jpg";
+import python_comentario_linha from "@/assets/img/python/python_comentario_linha.png";
+import python_comentario_mult_linha from "@/assets/img/python/python_comentario_mult.png";
+import pass from "@/assets/img/python/pass.png";
+import int from "@/assets/img/python/int.png";
+import float from "@/assets/img/python/float.png";
+import str from "@/assets/img/python/str.png";
+import bool from "@/assets/img/python/bool.png";
+import list from "@/assets/img/python/list.png";
+import tuple from "@/assets/img/python/tuple.png";
+import dict from "@/assets/img/python/dict.png";
+import set from "@/assets/img/python/set.png";
+
 export const aulasPython = [
   {
     id: 1,
@@ -46,8 +56,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "pass",
-          texto: "Texto vai aqui",
-          img: no_photo,
+          texto: "O pass é usado como um placeholder quando uma declaração de código é necessária, mas você não quer executar nada. Ele permite que você crie blocos vazios sem gerar erros.",
+          img: pass,
         },
       },
     ],
@@ -64,8 +74,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "Números inteiros",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "O int é um tipo de dado que representa números inteiros, positivos ou negativos, sem casas decimais.",
+          img: int,
         },
       },
       {
@@ -76,8 +86,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "Números de ponto flutuante",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "O float é um tipo de dado que representa números com casas decimais.",
+          img: float,
         },
       },
       {
@@ -88,8 +98,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "Cadeia de caracteres (strings)",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "O str é um tipo de dado que representa sequências de caracteres (strings).",
+          img: str,
         },
       },
       {
@@ -100,8 +110,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "Booleanos (True, False)",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "O bool é um tipo de dado que representa valores booleanos: True ou False.",
+          img: bool,
         },
       },
       {
@@ -112,8 +122,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "Listas",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "Uma list é um tipo de dado que armazena coleções de elementos em uma sequência ordenada e mutável.\n Os principais pontos sobre listas incluem:\n\n1 - Ordenação: Os elementos em uma lista mantêm a ordem em que foram adicionados.\n\n2 - Mutável: Você pode adicionar, remover ou alterar elementos após a criação da lista.\n\n3 - Permite Duplicatas: Listas podem conter elementos duplicados, ou seja, o mesmo valor pode aparecer várias vezes.",
+          img: list,
         },
       },
       {
@@ -124,8 +134,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "Tuplas",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "Uma tuple é um tipo de dado que armazena coleções de elementos em uma sequência ordenada e imutável. \nOs principais pontos sobre tuplas incluem:\n\n1 - Imutável: Após a criação, os elementos de uma tupla não podem ser alterados, adicionados ou removidos.\n\n2 - Ordenação: Os elementos mantêm a ordem em que foram adicionados, permitindo acesso por índices.\n\n3 - Permite Duplicatas: Tuplas podem conter elementos duplicados, assim como listas.",
+          img: tuple,
         },
       },
       {
@@ -136,8 +146,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "Dicionários",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "Um dict é um tipo de dado que armazena pares de chave-valor, permitindo o acesso aos valores por suas chaves.\n Os principais pontos sobre dicionários incluem:\n\n1 - Estrutura de Chave-Valor: Cada valor é acessado usando uma chave única, o que facilita a busca de dados.\n\n2 - Mutável: Você pode adicionar, remover ou alterar pares de chave-valor após a criação do dicionário.\n\n3 - Sem Ordem: As chaves não têm uma ordem definida, portanto, a iteração pode não ser na ordem de inserção.",
+          img: dict,
         },
       },
       {
@@ -148,8 +158,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "Conjuntos",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "O set é um tipo de dado que armazena coleções de elementos únicos, não ordenados e mutáveis. \nOs principais pontos sobre conjuntos incluem:\n\n1 - Elementos Únicos: Um set não permite duplicatas. Se você tentar adicionar um elemento já existente, ele será ignorado.\n\n2 - Não Ordenado: Os elementos não têm uma ordem definida, então não é possível acessar elementos por um índice, como em listas ou tuplas.\n\n3 - Mutável: Você pode adicionar ou remover elementos após a criação do conjunto.",
+          img: set,
         },
       },
     ],

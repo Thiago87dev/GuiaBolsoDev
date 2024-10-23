@@ -17,7 +17,7 @@ const Modal = ({ onClose, title, text, imagem }: ModalProps) => {
         </div>
         <div className="mt-10">
           <h2 className="text-2xl mb-4">{title}</h2>
-          <p className="text-lg mb-4">{text}</p>
+          <p className="text-lg mb-4 whitespace-pre-line">{text}</p>
           <Image src={imagem} alt="imagem"></Image>
         </div>
       </div>
