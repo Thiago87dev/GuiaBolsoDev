@@ -10,6 +10,10 @@ import list from "@/assets/img/python/list.png";
 import tuple from "@/assets/img/python/tuple.png";
 import dict from "@/assets/img/python/dict.png";
 import set from "@/assets/img/python/set.png";
+import aritimetico from "@/assets/img/python/aritimetico.png";
+import comparacao from "@/assets/img/python/comparacao.png";
+import logicos from "@/assets/img/python/logicos.png";
+import atribuicao from "@/assets/img/python/atribuicao.png";
 
 export const aulasPython = [
   {
@@ -176,8 +180,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "Aritimeticos",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "Os operadores aritméticos são usados para realizar operações matemáticas básicas. Aqui estão os principais operadores:\n\n1 - Adição (+): Soma dois valores.\n\n2 - Subtração (-): Subtrai um valor do outro.\n\n3 - Multiplicação (*): Multiplica dois valores.\n\n4 - Divisão (/): Divide um valor pelo outro e retorna um número com ponto flutuante (decimal).\n\n5 - Divisão Inteira (//): Divide um valor pelo outro e retorna o quociente inteiro (sem decimais).\n\n6 - Módulo (%): Retorna o resto da divisão de dois valores.\n\n7 - Exponenciação (**): Eleva um valor ao poder de outro.",
+          img: aritimetico,
         },
       },
       {
@@ -188,8 +192,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "Comparação",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "Os operadores de comparação são usados para comparar dois valores e retornam um valor booleano (True ou False). Aqui estão os principais operadores:\n\n1 - Igualdade (==): Verifica se dois valores são iguais.\n\n2 - Diferença (!=): Verifica se dois valores são diferentes.\n\n3 - Maior que (>): Verifica se o valor à esquerda é maior que o valor à direita.\n\n4 - Menor que (<): Verifica se o valor à esquerda é menor que o valor à direita.\n\n5 - Maior ou igual a (>=): Verifica se o valor à esquerda é maior ou igual ao valor à direita.\n\n6 - Menor ou igual a (<=): Verifica se o valor à esquerda é menor ou igual ao valor à direita.",
+          img: comparacao,
         },
       },
       {
@@ -200,8 +204,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "Lógicos",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "Os operadores lógicos são usados para combinar expressões condicionais e retornam um valor booleano (True ou False). Aqui estão os principais operadores:\n\n1 - \"E\" lógico (and): Retorna True se ambas as expressões forem verdadeiras.\n\n2 - \"OU\" lógico (or): Retorna True se pelo menos uma das expressões for verdadeira.\n\n3 - \"NEGAÇÃO\" lógica (not): Inverte o valor booleano, retornando True se a expressão for False e vice-versa.",
+          img: logicos,
         },
       },
       {
@@ -212,8 +216,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "Atribuição",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "Os operadores de atribuição são usados para atribuir valores às variáveis e realizar operações aritméticas ou lógicas durante a atribuição. Aqui estão os principais operadores:\n\n1 - Atribuição Simples (=): Atribui um valor à variável.\n\n 2 - Atribuição com Adição (+=): Soma o valor à variável e atribui o resultado.\n\n3 - Atribuição com Subtração (-=): Subtrai o valor da variável e atribui o resultado.\n\n4 - Atribuição com Multiplicação (*=): Multiplica o valor pela variável e atribui o resultado.\n\n5 - Atribuição com Divisão (/=): Divide o valor pela variável e atribui o resultado.\n\n6 - Atribuição com Divisão Inteira (//=): Divide a variável pelo valor e atribui o quociente inteiro.\n\n7 - Atribuição com Módulo (%=): Calcula o resto da divisão e atribui o resultado.\n\n8 - Atribuição com Exponenciação (**=): Eleva a variável à potência do valor e atribui o resultado.",
+          img: atribuicao,
         },
       },
     ],
