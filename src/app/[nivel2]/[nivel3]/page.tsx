@@ -46,6 +46,9 @@ const Nivel3 = ({ params }: Nivel3Props) => {
         {aulas.map((item) => {
           return (
             <div key={item.id}>
+              {item.id == Number(dividindoParams[1]) + 1 && (
+                <h2 className="text-3xl italic mb-12">{item.nome}</h2>
+              )}
               {item.nivel2.map((item2) => (
                 <div key={item2.id}>
                   {item2.nivel3.map((item3) => (

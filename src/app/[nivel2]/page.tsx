@@ -44,6 +44,9 @@ const Nivel2 = ({ params }: Nivel2Props) => {
         {aulas.map((item) => {
           return (
             <div key={item.id}>
+              {item.id == Number(dividindoParams[1]) + 1 && (
+                <h2 className="text-3xl italic mb-12">{item.nome}</h2>
+              )}
               {item.nivel2.map((item2) => (
                 <div className="my-8 font-semibold" key={item2.id}>
                   {item2.idPai === paramsNum && (
@@ -51,7 +54,9 @@ const Nivel2 = ({ params }: Nivel2Props) => {
                       {item2.nivel3.length > 0 ? (
                         <li>
                           <Link
-                            href={`/${dividindoParams[0]}-${item.id - 1}/${item2.nomeReferencia}-${item2.id}`}
+                            href={`/${dividindoParams[0]}-${item.id - 1}/${
+                              item2.nomeReferencia
+                            }-${item2.id}`}
                           >
                             <div className="flex justify-between mb-1">
                               <div className="flex gap-4 ">
@@ -78,7 +83,7 @@ const Nivel2 = ({ params }: Nivel2Props) => {
                                 }
                               >
                                 <div className="flex justify-between items-center mb-1 text-left ">
-                                  <div  className="flex gap-4 items-center">
+                                  <div className="flex gap-4 items-center">
                                     <p>{item2.id}</p>
                                     <p>{item2.nome2}</p>
                                   </div>

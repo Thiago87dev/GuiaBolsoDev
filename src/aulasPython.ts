@@ -14,6 +14,9 @@ import aritimetico from "@/assets/img/python/aritimetico.png";
 import comparacao from "@/assets/img/python/comparacao.png";
 import logicos from "@/assets/img/python/logicos.png";
 import atribuicao from "@/assets/img/python/atribuicao.png";
+import if_imagem from "@/assets/img/python/if_imagem.png";
+import elif_imagem from "@/assets/img/python/elif_imagem.png";
+import else_imagem from "@/assets/img/python/else_imagem.png";
 
 export const aulasPython = [
   {
@@ -234,8 +237,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "if",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "O if é usado para executar um bloco de código apenas se uma condição for verdadeira.\n Se a condição for falsa, o Python ignora o bloco if.\n É uma estrutura básica de decisão, permitindo que o código reaja a diferentes condições.\n\nNo exemplo abaixo, o bloco if executa apenas se num for maior que zero, mostrando a mensagem \"O número é positivo\".",
+          img: if_imagem,
         },
       },
       {
@@ -246,8 +249,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "elif",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "O elif (abreviação de \"else if\") é usado para adicionar condições adicionais após um if. \nEle permite verificar múltiplas condições sequencialmente, executando o bloco de código correspondente à primeira condição verdadeira.\n\nNo exemplo abaixo, o elif verifica se num é menor que zero apenas se a condição if inicial for falsa.",
+          img: elif_imagem,
         },
       },
       {
@@ -258,8 +261,8 @@ export const aulasPython = [
         nivel3: [],
         conteudoModal: {
           titulo: "else",
-          texto: "o texto vem aqui",
-          img: no_photo,
+          texto: "O else é usado para definir um bloco de código que será executado quando todas as condições anteriores (if e elif) forem falsas.\nEle lida com todos os outros casos que não atendem a nenhuma condição específica.\n\nAbaixo, o else é executado somente se num não for maior nem menor que zero, indicando que o valor é zero.",
+          img: else_imagem,
         },
       },
     ],
